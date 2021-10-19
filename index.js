@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-function createPersistentObject(path) {
+function createPObject(path) {
     const writeData = (store) => {
         const s = JSON.stringify(store, null, 2);
         fs.writeFileSync(path, s);
@@ -63,4 +63,4 @@ function createPersistentObject(path) {
     });
 }
 
-module.exports = createPersistentObject;
+module.exports = createPObject;

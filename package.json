@@ -1,11 +1,12 @@
 {
-  "name": "persistent-object",
-  "version": "1.0.0",
+  "name": "infile-object",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no test specified\""
   },
-  "author": "",
-  "license": "ISC"
+  "author": "raywu0123",
+  "license": "ISC",
+  "homepage": "https://github.com/raywu0123/InFile-Object/#readme"
 }
